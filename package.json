@@ -1,0 +1,24 @@
+{
+  "name": "broken-query",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build"
+  },
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@tanstack/router-ssr-query-core": "^1.131.30",
+    "@tanstack/solid-query": "^5.85.6",
+    "@tanstack/solid-router": "^1.131.31",
+    "@tanstack/solid-start": "^1.131.31",
+    "solid-js": "^1.9.9",
+    "vite": "^7.1.4"
+  }
+}
