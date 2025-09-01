@@ -2,8 +2,6 @@
 import { Outlet, createRootRoute } from "@tanstack/solid-router";
 import { QueryClient, QueryClientProvider } from "@tanstack/solid-query";
 
-const queryClient = new QueryClient();
-
 export const Route = createRootRoute({
   head: () => ({
     meta: [
@@ -21,6 +19,8 @@ export const Route = createRootRoute({
   }),
   component: RootComponent,
 });
+
+const queryClient = new QueryClient();
 
 function RootComponent() {
   return (
